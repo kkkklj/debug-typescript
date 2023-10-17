@@ -14,6 +14,9 @@ const recordObj1:Record<number,TypeObj> = {
 }
 recordObj1[1] = obj
 
+// const recordList: Record<number,string> = []
+// recordList[2] = '1'
+
 /**
 * @remark key为string，val为typeObj或string
 */
