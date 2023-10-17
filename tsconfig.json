@@ -108,5 +108,5 @@
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
     
   },
-  "include": ["debug/*.ts","global.d.ts", "debug/index.ts","esbuild.config.js", "types/*.ts","const/*.ts,src/**/*.ts"]
+  "include": ["debug/*.ts","global.d.ts", "debug/index.ts","esbuild.config.js", "types/*.ts","const/*.ts","src/**/*.ts"]
 }
