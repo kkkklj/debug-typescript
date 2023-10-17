@@ -24,3 +24,17 @@ const recordObj2:Record<string,TypeObj | string> = {
   k1:obj,
   k2:''
 }
+
+
+// 有啥用?
+// 当要声明一个shallow对象需要这么麻烦
+type StringKeyObject = {
+  [key:string] :any
+}
+const shallowObj1:StringKeyObject = {
+  key:1
+}
+// but use Record only
+const shallowObj2:Record<string,any> = {
+  key:1
+}
