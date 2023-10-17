@@ -1,0 +1,17 @@
+{
+  "name": "transform-ts2js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild --minify ./ts/index.ts --bundle --outfile=dist/js/index.js",
+    "alpha": "node esbuild.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "typescript": "^5.1.6"
+  }
+}
