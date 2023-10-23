@@ -18,7 +18,6 @@ class Parent implements parent,parent2 {
     this.p2Prop = '';
   }
 }
-
 /**
  * 接口继承
  */
