@@ -1,5 +1,6 @@
 namespace condition {
   /**
+   * 倒是typescript自带的api很多依靠condition实现了(exculde、Extract)
    *  SomeType extends OtherType ? TrueType : FalseType;
    *  结合断言可以灵活变化类型，用于变换return值的类型
    */
